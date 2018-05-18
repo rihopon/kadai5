@@ -10,8 +10,8 @@ public class kadai5Test {
 	@Test
 	public void 数字を英訳するメソッド() {
 	 IntToEng ite = new IntToEng();
-	 String expected = "one";
-	 String actual = ite.translateEng(1);
+	 String expected = "three handred ";
+	 String actual = ite.translateEng(100);
 	 assertThat(actual,is(expected));
 	}
 
